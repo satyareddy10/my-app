@@ -25,7 +25,7 @@ try{
 catch(error){
   res.status(400).json({message: error.message})
 }
-  res.send('Post API')
+ 
 })
 
 //Get all Method
